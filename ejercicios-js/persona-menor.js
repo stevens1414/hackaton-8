@@ -1,18 +1,35 @@
 // obtener persona menor 
-let p1 = {
-    name:calos,
-    edad: 23
-}
-let p2 = {
-    name:juan,
-    edad: 17
-}
-let p3 = {
-    name:marco,
-    edad: 25
-}
 
-if (p1.edad < p2.edad) {
-   return
-}
-
+function menor (){
+    let entrada;
+    let personas = [
+        {
+            name: "jose",
+            age: 12,
+        },
+        {
+            name: "maria",
+            age: 20,
+        },
+        {
+            name: "pedro",
+            age: 45,
+        }
+    ]
+   }
+    if (personas[0].age < personas[1].age && personas[0].age < personas[2].age){
+        entrada = ('el menor es ' + persona[0].name + 'y su edad es ' + persona[0].age)
+    }
+    else  {
+        if (persona[1].age < persona[2].age && persona[1].age < persona[0].age){
+            entrada = ('el menor es ' + persona[1].name + 'y su edad es ' + persona[1].age)
+        }
+        else{
+            if(persona[2].age < persona[1].age && persona[2].age < persona[0].age){
+                entrada = ('el menor es ' + persona[1].name + 'y su edad es ' + persona[1].age)
+            }
+        }
+        console.log(entrada)
+    }   
+    menor()
+    
